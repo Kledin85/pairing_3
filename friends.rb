@@ -5,3 +5,13 @@ nums.each do |num|
     p num
   end
 end
+
+def is_below_60(array)
+  array.each do |temp|
+    if temp < 60
+      p temp
+    end
+  end
+end
+
+is_below_60(nums)
